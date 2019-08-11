@@ -8,18 +8,18 @@ import org.springframework.web.bind.annotation.RestController;
 @Controller
 public class IndexController {
 
-    @RequestMapping("/index")
+    @RequestMapping("index")
     @ResponseBody
     public String index() {
         return "Hello Springboot.";
     }
 
-    @RequestMapping("/hello")
+    @RequestMapping("hello")
     public void hello() {
 
     }
 
-    @RequestMapping("/snoop")
+    @RequestMapping("snoop")
     public void snoop() {
 
     }
