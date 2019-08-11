@@ -37,10 +37,10 @@
             </exclusions>
         </dependency>
 
-        <dependency>e
+        <dependency>
             <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>\
-            <scope>provided</scop>
+            <artifactId>javax.servlet-api</artifactId>
+            <scope>provided</scope>
         </dependency>
 
     </dependencies>
